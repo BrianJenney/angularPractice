@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+.jumbotron{
+  text-align: center;
+  color: white;
+  background-image:url("https://khall70.files.wordpress.com/2010/05/2hall_jumbotron.jpg");
+}
+
+h1{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 900 !important;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+ul li{
+  display: inline;
+  margin: 5%;
+}
+
+ul li:hover{
+  font-size: 120%;
+  transition: .5s;
+}
+li a{
+  color: black;
+  text-decoration: none;
+  font-size: 350%;
+  font-family: 'Indie Flower', cursive;
+}
+
+li a:hover{
+  text-decoration: none;
+  transform: scaleX(1.1,1.1);
+}
+
+ul{
+  text-align: center; 
+}
+
+p{
+  margin-top: 10%;
+  width: 75%;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 150%;
+}
+
+img{
+  margin-top: 25%;
+  margin-left: 25%;
+}
+
+.row{
+  margin-bottom: 15%;
+}
+
+.pull-left{
+  margin-left: 10%;
+}
+
+.pull-right{
+  margin-right: 10%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+.footer {
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: black;
+  line-height: 40px;
+  color: white;
+}
+
+

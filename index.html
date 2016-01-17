@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="brianApp">
+<head>
+	<meta charset="UTF-8">
+	<title>Yo Angular</title>
+	 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
+  <script src="app.js"></script>
+</head>
+<body ng-controller="mainController">
+<div class="jumbotron">
+	<h1>Check Out Our Angular Family</h1>
+</div>
+	<div class="nav">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#brian">Brian</a></li>
+			<li><a href="#sophath">Sophath</a></li>
+			<li><a href="#kids">Kids</a></li>			
+		</ul>
+
+	</div>
+	<h2>Check Out Our Family By Clicking On Our Names!</h2>
+
+	<div>
+		<div ng-view></div>	
+	</div>
+	
+		<div class="footer">
+			<div class="pull-left">
+				<small>Copyright 2016... Yeah, right.</small>
+			</div>
+			<div class="pull-right">
+				<small>Created by B Gizzle</small>			
+			</div>
+		</div>
+			
+		
+	
+</body>
+</html>
